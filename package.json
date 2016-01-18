@@ -1,0 +1,26 @@
+{
+  "name": "box2dweb-haircut",
+  "version": "1.0.0",
+  "description": "Modern version of Uli Hecht's port of Box2DFlash which is the flash port of Erin Catto's box2d library.",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CAPSLOCKUSER/box2dweb-haircut.git"
+  },
+  "keywords": [
+    "box2d",
+    "box2dweb",
+    "javascript",
+    "physics",
+    "library"
+  ],
+  "author": "Miklos Megyes <m.miklos05@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CAPSLOCKUSER/box2dweb-haircut/issues"
+  },
+  "homepage": "https://github.com/CAPSLOCKUSER/box2dweb-haircut#readme"
+}
