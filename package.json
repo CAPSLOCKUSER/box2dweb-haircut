@@ -1,6 +1,6 @@
 {
   "name": "box2dweb-haircut",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Modern version of Uli Hecht's port of Box2DFlash which is the flash port of Erin Catto's box2d library.",
   "main": "lib/box2dweb-haircut.min.js",
   "scripts": {
@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/CAPSLOCKUSER/box2dweb-haircut#readme",
   "devDependencies": {
-    "babel-cli": "^6.4.0"
+    "babel-cli": "^6.4.0",
+    "babel-preset-es2015": "^6.3.13"
   }
 }
