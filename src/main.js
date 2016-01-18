@@ -10934,3 +10934,28 @@ Box2D.postDefs = [];
 var i;
 for (i = 0; i < Box2D.postDefs.length; ++i) Box2D.postDefs[i]();
 delete Box2D.postDefs;
+
+export default Box2D;
+
+export const Box2DShorts = {
+  AABB: Box2D.Collision.b2AABB,
+  world: Box2D.Dynamics.b2World,
+  vec2: Box2D.Common.Math.b2Vec2,
+  debugDraw: Box2D.Dynamics.b2DebugDraw,
+  body: Box2D.Dynamics.b2Body,
+  bodyDef: Box2D.Dynamics.b2BodyDef,
+  fixtureDef: Box2D.Dynamics.b2FixtureDef,
+  polygonShape: Box2D.Collision.Shapes.b2PolygonShape,
+  circleShape: Box2D.Collision.Shapes.b2CircleShape,
+  edgeShape: Box2D.Collision.Shapes.b2EdgeShape,
+  mouseJointDef: Box2D.Dynamics.Joints.b2MouseJointDef,
+  revoluteJointDef: Box2D.Dynamics.Joints.b2RevoluteJointDef,
+  distanceJoint: Box2D.Dynamics.Joints.b2DistanceJoint,
+  distanceJointDef: Box2D.Dynamics.Joints.b2DistanceJointDef,
+  ropeJointDef: Box2D.Dynamics.Joints.b2RopeJointDef,
+  weldJointDef: Box2D.Dynamics.Joints.b2WeldJointDef,
+  joint: Box2D.Dynamics.Joints.b2Joint,
+  contactListener: Box2D.Dynamics.b2ContactListener,
+  shape: Box2D.Collision.Shapes.b2Shape,
+  math: Box2D.Common.Math.b2Math
+};
